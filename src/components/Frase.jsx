@@ -1,11 +1,12 @@
-function Frase(){
-    return (
-        <div>
-            <p>
-                Componente 2
-            </p>
-        </div>
-    )
+import styles from './Frase.module.css';
+
+function Frase() {
+  return (
+    <div>
+      <p className={styles.fraseContent}>frase teste</p>
+      <p className={styles.fraseContainer}>frase teste2</p>
+    </div>
+  );
 }
 
-export default Frase
+export default Frase;

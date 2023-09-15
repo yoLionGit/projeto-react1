@@ -1,5 +1,5 @@
-import './App.css';
-
+import './index.css';
+import Frase from './components/Frase';
 import Pessoa from './components/Pessoa';
 
 function App() {
@@ -8,6 +8,8 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Home</h1>
+      <Frase />
       <Pessoa
         nome="Exemplo1"
         idade="99"
