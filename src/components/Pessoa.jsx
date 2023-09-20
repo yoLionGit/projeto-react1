@@ -1,7 +1,7 @@
 function Pessoa({ nome, idade, profissao, foto }) {
   return (
     <div>
-      <img src={foto} alt={nome} />
+      <img className="foto" src={foto} alt={nome} />
       <h4>
         <p>Nome: {nome}</p>
         <p>Idade: {idade}</p>

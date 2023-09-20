@@ -3,10 +3,11 @@ import Item from './Item';
 function List() {
   return (
     <>
-      <h1>Minha Lista</h1>
+      <h1>Meus Carros:</h1>
       <url>
-        <Item marca="Toyota" />
-        <Item marca="Mazda" />
+        <Item marca="Toyota" ano_lancamento={1949} />
+        <Item marca="Mazda" ano_lancamento={1997} />
+        <Item />
       </url>
     </>
   );
