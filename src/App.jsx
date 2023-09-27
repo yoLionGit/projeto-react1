@@ -1,18 +1,10 @@
-import { useState } from 'react';
 import './index.css';
-import SeuNome from './components/SeuNome';
-import Saudacao from './components/Saudacao';
+import AppRoutes from './components/routes/AppRoutes';
 
-function App() {
-  const [nome, setNome] = useState('');
-
+export default function App() {
   return (
-    <div className="App">
-      <h1>State Lift</h1>
-      <SeuNome setNome={setNome} />
-      <Saudacao nome={nome} />
-    </div>
+    <>
+      <AppRoutes />
+    </>
   );
 }
-
-export default App;
