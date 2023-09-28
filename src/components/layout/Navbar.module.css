@@ -1,6 +1,9 @@
 .list {
     display: flex;
     list-style: none;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .item {

@@ -1,13 +1,15 @@
 import Navbar from '../layout/Navbar';
+import Footer from '../layout/Footer';
 
 export default function Contato() {
   return (
     <>
+      <Navbar />
       <div>
-        <Navbar />
         <h1>Contato</h1>
         <p>Coteudo</p>
       </div>
+      <Footer />
     </>
   );
 }
